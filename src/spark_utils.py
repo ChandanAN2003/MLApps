@@ -2,7 +2,7 @@
 
 from pyspark.sql import SparkSession
 
-# Temporary Spark configuration update - pushed by mistake
+
 def get_spark_session(app_name="MLApp"):
     """Create and return a Spark session."""
 
