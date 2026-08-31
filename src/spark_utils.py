@@ -2,7 +2,8 @@
 
 from pyspark.sql import SparkSession
 
-# Default Spark session configuration
+# Spark session configuration for MLApp
+
 def get_spark_session(app_name="MLApp"):
     """Create and return a Spark session."""
 
